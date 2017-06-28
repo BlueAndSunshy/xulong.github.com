@@ -1119,9 +1119,40 @@ media quires for mobile
   #home h1 {
     font-size: 22px;
   }
+  #home h2{
+      font-size:17px;
+  }
   #home h3 {
     font-size: 12px;
   }
+    #home2 h1 {
+        font-size: 22px;
+    }
+    #home2 h2{
+        font-size:17px;
+    }
+    #home2 h3 {
+        font-size: 14px;
+    }
+    #home3 h1 {
+        font-size: 22px;
+    }
+    #home3 h2{
+        font-size:17px;
+    }
+    #home3 h3 {
+        font-size: 12px;
+    }
+    #portfolio h1 {
+        font-size: 22px;
+    }
+    #portfolio h2{
+        font-size:17px;
+    }
+    #portfolio h3 {
+        font-size: 14px;
+    }
+
 }
 
 /* ==========================================================================
