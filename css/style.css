@@ -879,7 +879,17 @@ team section
 #team .team_right .history-right .history-image img{
     width:100%;
 }
-
+@media (max-width: 440px){
+    #team h1 {
+        font-size: 22px;
+    }
+    #team h2{
+        font-size:17px;
+    }
+    #team h3 {
+        font-size: 16px;
+    }
+}
 /* ==========================================================================
 member section
 ========================================================================== */
@@ -938,8 +948,7 @@ member section
     cellpadding : 1px;
 }
 #member img{
-    width:150px;
-    height:200px;
+    width:100%;
 }
 #member .heading{
     padding-top: 30px;
@@ -949,6 +958,17 @@ member section
 }
 #member .table-second table{
     margin-top: 30px;
+}
+@media (max-width: 440px){
+    #member h1 {
+        font-size: 22px;
+    }
+    #member h2{
+        font-size:17px;
+    }
+    #member h3 {
+        font-size: 12px;
+    }
 }
 /* ==========================================================================
 research section
