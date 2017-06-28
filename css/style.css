@@ -371,6 +371,21 @@ home section
 	background: transparent;
   	color: #ffffff;
 }
+@media (max-width: 440px){
+    #home {
+        padding-top: 320px;
+        padding-bottom: 320px;
+    }
+    #home h1 {
+        font-size: 22px;
+    }
+    #home h2{
+        font-size:17px;
+    }
+    #home h3 {
+        font-size: 12px;
+    }
+}
 /* ==========================================================================
 home2 section
 ========================================================================== */
@@ -422,6 +437,17 @@ p{
 }
 #home2 .section-title a:hover{
     color: #00c6d7;
+}
+@media (max-width: 440px){
+    #home2 h1 {
+        font-size: 22px;
+    }
+    #home2 h2{
+        font-size:17px;
+    }
+    #home2 h3 {
+        font-size: 12px;
+    }
 }
 /* ==========================================================================
 home3 section
@@ -529,6 +555,17 @@ home3 section
     background: transparent;
     color: #ffffff;
 }
+@media (max-width: 440px){
+    #home3 h1 {
+        font-size: 22px;
+    }
+    #home3 h2{
+        font-size:17px;
+    }
+    #home3 h3 {
+        font-size: 12px;
+    }
+}
 /* ==========================================================================
 portfolio section
 ========================================================================== */
@@ -550,9 +587,7 @@ portfolio section
 #portfolio h2{
     text-transform: uppercase;
 }
-#portfolio .section-title h1{
-    font-size: 40px;
-}
+
 #portfolio .container {
     width: 100%;
     padding: 0;
@@ -594,6 +629,17 @@ portfolio section
     border-radius: 0;
     background: transparent;
     color: #00c6d7;
+}
+@media (max-width: 440px){
+    #portfolio h1 {
+        font-size: 22px;
+    }
+    #portfolio h2{
+        font-size:17px;
+    }
+    #portfolio h3 {
+        font-size: 12px;
+    }
 }
 /* ==========================================================================
 contact section
@@ -1106,53 +1152,6 @@ footer ul li a:hover{
       width: 32.333%;
     }
   }
-
-}
-/* ==========================================================================
-media quires for mobile
-========================================================================== */
-@media (max-width: 440px) {
-  #home {
-    padding-top: 320px;
-    padding-bottom: 320px;
-  }
-  #home h1 {
-    font-size: 22px;
-  }
-  #home h2{
-      font-size:17px;
-  }
-  #home h3 {
-    font-size: 12px;
-  }
-    #home2 h1 {
-        font-size: 22px;
-    }
-    #home2 h2{
-        font-size:17px;
-    }
-    #home2 h3 {
-        font-size: 14px;
-    }
-    #home3 h1 {
-        font-size: 22px;
-    }
-    #home3 h2{
-        font-size:17px;
-    }
-    #home3 h3 {
-        font-size: 12px;
-    }
-    #portfolio h1 {
-        font-size: 22px;
-    }
-    #portfolio h2{
-        font-size:17px;
-    }
-    #portfolio h3 {
-        font-size: 14px;
-    }
-
 }
 
 /* ==========================================================================
