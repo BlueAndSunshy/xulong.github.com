@@ -17,14 +17,11 @@ h1, h2, h3, h4 {
   letter-spacing: 2px;
 }
 
-.heading {
-  font-size: 20px;
-}
-.subheading {
-  font-size: 14px;
-  font-weight: bold;
-  padding-bottom: 60px;
-}
+/*.subheading {*/
+  /*font-size: 14px;*/
+  /*font-weight: bold;*/
+  /*padding-bottom: 60px;*/
+/*}*/
 .bold {
   font-weight: bold;
 }
@@ -42,15 +39,6 @@ a {
 hr {
   width: 180px;
   border-color: #CCC;
-}
-
-.section-title strong {
-	color: #00C6D7;
-  	font-size: 56px;
-}
-
-.section-title h1 {
-	font-size: 24px;
 }
 
 .section-title {
@@ -409,9 +397,6 @@ p{
     background-color: #ffffff;
     box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.20);
 }
-#home2 h3 {
-    font-size: 18px;
-}
 #home2 hr{
     width:100%;
     float: left;
@@ -428,9 +413,6 @@ p{
 }
 #home2 table h2{
     text-align: center;
-}
-#home2 h1 {
-    font-size: 40px;
 }
 #home2 h2{
     text-transform: uppercase;
@@ -513,7 +495,6 @@ home3 section
 }
 #home3 .section-title h1 a{
     color: #ffffff;
-    font-size:40px;
 }
 #home3 .section-title h1 a:hover{
     color: #00C6D7;
@@ -633,7 +614,6 @@ contact section
     padding-bottom: 20px;
 }
 #contact h3 {
-    font-size: 16px;
     font-weight: bold;
     letter-spacing: 1px;
 }
@@ -670,9 +650,6 @@ contact section
 #contact input[type="submit"]:hover {
     color: #000000;
 }
-#contact h1{
-    font-size:40px;
-}
 #contact h2{
     text-transform: uppercase;
 }
@@ -683,8 +660,6 @@ team section
     text-align: center;
 }
 #team h3 {
-    color: #00c6d7;
-    font-size: 14px;
     font-weight: bold;
 }
 #team .col-md-3 {
@@ -738,6 +713,126 @@ team section
 #team .social-icon li a:hover {
     color: #00c6d7;
 }
+#team{
+    background-color: #F7F7F7;
+}
+#team .main{
+    background-color: #ffffff;
+}
+#team .main img{
+    width:100%;
+    padding-left: 52px;
+    padding-right: 52px;
+}
+#team img {
+    padding-top: 30px;
+    float: none;
+}
+
+#team .main_text{
+    padding-left:52px;
+    padding-right:52px;
+    padding-top: 20px;
+    text-align: left;
+}
+#team .circle{
+    width: 12px;
+    height: 12px;
+    display: block;
+    border-radius: 6px;
+    color: #00c6d7;
+    float: right;
+}
+#team  .team_left .history-left .history-date .dash{
+    width: 30px;
+    height: 0;
+    display: block;
+    border-top: dashed 1px #a1e3c4;
+    position: absolute;
+    right: -35px;
+    top: 13px;
+}
+
+#team .history-left1{
+    width:50%;
+    letter-spacing: -0.35em;
+}
+#team .team_left{
+    display: inline-block;
+    letter-spacing: normal;
+    word-spacing: normal;
+    vertical-align: top;
+
+}
+#team .team_left .history-left{
+    padding-right: 45px;
+    border-right: dashed 1px #a1e3c4;
+    text-align: right;
+}
+#team .team_left .history-left .history-date{
+    text-align: right;
+    color: #2aad6f;
+    line-height: 30px;
+    position: relative;
+}
+#team .team_left .history-left .history-text{
+    text-align: left;
+
+}
+#team .team_left .history-left .history-image{
+    margin-top: 5px;
+}
+#team .team_left .history-left .history-image img{
+    width:100%;
+}
+
+#team img{
+    margin-bottom: 30px;
+}
+
+#team .history-right1{
+    width:50%;
+    letter-spacing: -0.35em;
+    margin-top: 100px;
+}
+#team .team_right{
+    display: inline-block;
+    letter-spacing: normal;
+    word-spacing: normal;
+    vertical-align: top;
+
+}
+#team .team_right .history-right{
+    padding-left: 45px;
+    border-left: dashed 1px #a1e3c4;
+    text-align: left;
+}
+#team  .team_right .history-right .history-date .dash{
+    width: 30px;
+    height: 0;
+    display: block;
+    border-top: dashed 1px #a1e3c4;
+    position: absolute;
+    left: -35px;
+    top: 13px;
+}
+#team .team_right .history-right .history-date{
+    text-align: right;
+    color: #2aad6f;
+    line-height: 30px;
+    position: relative;
+    left:0px;
+}
+#team .team_right .history-right .history-text{
+    /*text-align: left;*/
+
+}
+#team .team_right .history-right .history-image{
+    margin-top: 5px;
+}
+#team .team_right .history-right .history-image img{
+    width:100%;
+}
 
 /* ==========================================================================
 member section
@@ -765,9 +860,6 @@ member section
     background-color: #ffffff;
     box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.20);
 }
-#member h3 {
-    font-size: 18px;
-}
 #member hr{
     width:100%;
     float: left;
@@ -781,12 +873,8 @@ member section
     text-align: left;
     position: fixed;
 }
-#member h1{
-    font-size:40px;
-}
 #member table h2 {
     text-align: center;
-    font-size: 30px;
 }
 #member table h2 a{
     color: #3b3b3b;
@@ -853,69 +941,13 @@ research section
 #research ul{
     list-style-type: disc;
 }
-#research h2{
-    font-size: 20px;
-}
 /* ==========================================================================
 lab section
 ========================================================================== */
 #lab .section-title{
     padding-top: 100px;
 }
-/* ==========================================================================
-work section
-========================================================================== */
-#work {
-    text-align: center;
-}
-p{
-    text-align: left;
-}
 
-#work .clear{
-    clear: both;
-}
-p1{
-    text-align: left;
-    font-size:20px ;
-}
-#work .col-md-4 {
-  padding: 28px;
-  position: relative;
-  transition: all 0.4s ease-in-out;
-}
-#work .col-md-4:hover {
-  background-color: #ffffff;
-  box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.20);
-}
-#work h3 {
-  font-size: 18px;
-}
-#work hr{
-    width:100%;
-    float: left;
-    margin-bottom: 0px;
-    margin-top:0px;
-}
-#work p{
-
-    float: left;
-}
-#work .block_right{
-    text-align: left;
-    position: fixed;
-}
-#work table h2{
-    text-align: center;
-}
-
-/* ==========================================================================
-about section
-========================================================================== */
-#about {
-  background: #3B3B3B;
-  color: #ffffff;
-}
 .nav-tabs {
   margin-top: 20px;
   border-bottom: 1px solid #606060;
@@ -1016,78 +1048,6 @@ about section
   width: 100%;
   display: block;
 }
-
-/* ==========================================================================
-pricing section
-========================================================================== */
-#pricing {
-  text-align: center;
-}
-#pricing h2 {
-  font-size: 52px;
-}
-#pricing h3 {
-  font-size: 16px;
-}
-#pricing .plan {
-  box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.20);
-  padding-top: 20px;
-  padding-bottom: 25px;
-}
-#pricing .plan span {
-	font-size: 16px;
-}
-#pricing .plan .plan_title {
-  font-weight: 300;
-  letter-spacing: 2px;
-  padding: 30px;
-  margin-bottom: 20px;
-}
-#pricing .medium-icon {
-  box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.20);
-  border-radius: 50%;
-  font-size: 52px;
-  width: 120px;
-  height: 120px;
-  line-height: 120px;
-  text-align: center;
-  margin-bottom: 32px;
-}
-#pricing .plan ul {
-  padding: 0px;
-}
-#pricing .plan ul li {
-  display: block;
-  font-weight: 500;
-  padding: 12px 0px;
-}
-#pricing .plan .btn {
-  border: none;
-  border-radius: 0px;
-  color: #ffffff;
-  font-size: 16px;
-  font-weight: bold;
-  padding: 16px 60px;
-  transition: all 0.4s ease-in-out;
-  margin-top: 20px;
-  text-transform: uppercase;
-}
-#pricing .plan-one .btn {
-  background-color: #00c6d7;
-}
-#pricing .plan-two .btn {
-  background-color: #ffa400;
-}
-#pricing .plan-three .btn {
-  background-color: #009988;
-}
-#pricing .plan .btn:hover {
-  background-color: #3B3B3B;
-}
-
-
-
-
 /* ==========================================================================
 footer section
 ========================================================================== */
@@ -1163,132 +1123,10 @@ media quires for mobile
     font-size: 12px;
   }
 }
+
 /* ==========================================================================
-team addition
+self addition
 ========================================================================== */
-#team{
-    background-color: #F7F7F7;
-}
-#team .main{
-    background-color: #ffffff;
-}
-#team .main img{
-    width:100%;
-    padding-left: 52px;
-    padding-right: 52px;
-}
-#team img {
-    padding-top: 30px;
-    float: none;
-}
-
-#team .main_text{
-    padding-left:52px;
-    padding-right:52px;
-    padding-top: 20px;
-    text-align: left;
-}
-#team .circle{
-    width: 12px;
-    height: 12px;
-    display: block;
-    border-radius: 6px;
-    background-color: #2aad6f;
-    float: right;
-}
-#team  .team_left .history-left .history-date .dash{
-    width: 30px;
-    height: 0;
-    display: block;
-    border-top: dashed 1px #a1e3c4;
-    position: absolute;
-    right: -35px;
-    top: 13px;
-}
-
-#team .history-left1{
-    width:50%;
-    letter-spacing: -0.35em;
-}
-#team .team_left{
-    display: inline-block;
-    letter-spacing: normal;
-    word-spacing: normal;
-    vertical-align: top;
-
-}
-#team .team_left .history-left{
-    padding-right: 45px;
-    border-right: dashed 1px #a1e3c4;
-    text-align: right;
-}
-#team .team_left .history-left .history-date{
-    text-align: right;
-    color: #2aad6f;
-    line-height: 30px;
-    position: relative;
-}
-#team .team_left .history-left .history-text{
-    text-align: left;
-
-}
-#team .team_left .history-left .history-image{
-    margin-top: 5px;
-}
-#team .team_left .history-left .history-image img{
-    width:100%;
-}
-
-#team img{
-    margin-bottom: 30px;
-}
-
-#team .history-right1{
-    width:50%;
-    letter-spacing: -0.35em;
-    margin-top: 100px;
-}
-#team .team_right{
-    display: inline-block;
-    letter-spacing: normal;
-    word-spacing: normal;
-    vertical-align: top;
-
-}
-#team .team_right .history-right{
-    padding-left: 45px;
-    border-left: dashed 1px #a1e3c4;
-    text-align: left;
-}
-#team  .team_right .history-right .history-date .dash{
-    width: 30px;
-    height: 0;
-    display: block;
-    border-top: dashed 1px #a1e3c4;
-    position: absolute;
-    left: -35px;
-    top: 13px;
-}
-#team .team_right .history-right .history-date{
-    text-align: right;
-    color: #2aad6f;
-    line-height: 30px;
-    position: relative;
-    left:0px;
-}
-#team .team_right .history-right .history-text{
-    /*text-align: left;*/
-
-}
-#team .team_right .history-right .history-image{
-    margin-top: 5px;
-}
-#team .team_right .history-right .history-image img{
-    width:100%;
-}
-    /* ==========================================================================
-    self addition
-    ========================================================================== */
 
 .text_left{
     text-align: left;
