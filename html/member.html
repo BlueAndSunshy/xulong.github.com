@@ -20,7 +20,7 @@
 <body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
 
 <!-- navigation section -->
-<section class="navbar navbar-fixed-top custom-navbar1" role="navigation">
+<section class="navbar  navbar-fixed-top1 custom-navbar1" role="navigation">
     <div class="container">
         <div class="navbar-header">
             <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -38,7 +38,6 @@
                 <li><a href="../html/research.html" class="smoothScroll">研究动态</a></li>
                 <li><a href="../html/lab_gallery.html" class="smoothScroll">照片展示</a></li>
                 <li><a href="../html/contact.html" class="smoothScroll">联系方式</a></li>
-
             </ul>
         </div>
     </div>
@@ -51,27 +50,23 @@
             <div class="col-md-9 col-sm-12">
                 <div class="section-title text-left">
                     <!--<strong>02</strong>-->
-                    <h1 class="heading bold" id="advisor">团队成员</h1>
+                    <h1 class="heading bold" >团队成员</h1>
                     <hr>
                     <p>&nbsp;&nbsp;&nbsp;&nbsp;此页面包含实验室的导师和现在在读或者以及毕业的学生。如果你想看XXX项目请<a href="#">点击这里</a> </p>
                     <div class="clear"></div>
-                    <h1 class="heading bold" >实验室导师</h1>
+                    <h1 class="heading bold" id="advisor" >实验室导师</h1>
                     <hr>
                     <table>
                         <tbody>
                         <tr>
                             <td style="width:16%"><img src="../images/LI.jpg"></td>
-                            <td style="width:21%" ><h2><a href="#">李永福</a></h2></td>
+                            <td style="width:21%" ><h2><a  data-toggle="modal" data-target="#bs-example-modal-lg" style="outline:#fff;">李永福</a></h2></td>
                             <td style="width:63%">
                                 <ul>
                                     <li>博士，美国普渡大学博士后，副教授，硕士生导师</li>
-                                    <li>主要从事车联网与智能交通领域的相关研究。主持/承担科研项目20余项，发表学术论文6
-                                        0余篇，其中SCI论文19篇（JCR一区9篇， JCR二区3篇），EI论文38篇</li>
-                                    <li>申请国家发明专利9项。并于2014年12月获得2014年度重庆市优秀博士学位论文；
-                                        于2014年10月被遴选为重庆市创新青年科技人才培养计划</li>
-                                    <li>于2014年12月被遴选为重庆邮电大学文峰高端人才引领项目省部级后备人才培养候选人；
-                                        于2015年9月获得重庆邮电大学课堂优秀教学成果奖；
-                                        于2016年6月被评为重庆邮电大学优秀硕士论文指导教师</li>
+                                    <li>主要从事车联网与智能交通领域的相关研究。主持/承担科研项目20余项，发表学术论文60余篇，其中SCI论文19篇（JCR一区9篇，JCR二区3篇），EI论文38篇</li>
+                                    <li>申请国家发明专利9项。并于2014年12月获得2014年度重庆市优秀博士学位论文；于2014年10月被遴选为重庆市创新青年科技人才培养计划</li>
+                                    <li>于2014年12月被遴选为重庆邮电大学文峰高端人才引领项目省部级后备人才培养候选人；于2015年9月获得重庆邮电大学课堂优秀教学成果奖；于2016年6月被评为重庆邮电大学优秀硕士论文指导教师</li>
                                 </ul>
                             </td>
                         </tr>
@@ -82,7 +77,7 @@
                             <tbody>
                             <tr>
                                 <td style="width:16%"><img src="../images/LI.jpg"></td>
-                                <td style="width:21%" ><h2><a href="#" id="advisor1">李永福</a></h2></td>
+                                <td style="width:21%" ><h2><a href="#" >李永福</a></h2></td>
                                 <td style="width:63%">
                                     <ul>
                                         <li></li>
@@ -95,13 +90,13 @@
                             </tbody>
                         </table>
                     </div>
-                    <h1 class="heading bold">实验室在读学生</h1>
+                    <h1 class="heading bold" id="advisor1">实验室在读学生</h1>
                     <hr>
                     <table>
                         <tbody>
                         <tr>
                             <td style="width:16%"><img  alt="" src="../images/LI.jpg"></td>
-                            <td style="width:21%" ><h2><a href="#" id="advisor2">李永福</a></h2></td>
+                            <td style="width:21%" ><h2><a href="#">李永福</a></h2></td>
                             <td style="width:63%">
                                 <ul>
                                     <li></li>
@@ -113,7 +108,7 @@
                         </tr>
                         </tbody>
                     </table>
-                    <h1 class="heading bold">实验室毕业学生</h1>
+                    <h1 class="heading bold" id="advisor2">实验室毕业学生</h1>
                     <hr>
                     <table >
                         <tbody>
@@ -142,8 +137,7 @@
                         <tr><td><a style="color:#3b3b3b;" href="#advisor" class="smoothScroll">实验室导师</a></td></tr>
                         <tr><td><a style="color:#3b3b3b;" href="#advisor1" class="smoothScroll">实验室在读学生</a></td></tr>
                         <tr><td><a style="color:#3b3b3b;" href="#advisor2" class="smoothScroll">实验室毕业学生</a></td></tr>
-
-                        </tr>
+                        <tr><td><a style="color:#3b3b3b;" href="#member" class="smoothScroll">回到顶端</a></td></tr>
                         </tbody>
                     </table>
                 </div>
@@ -151,7 +145,6 @@
         </div>
     </div>
 </section>
-
 
 <footer>
     <div class="container">
@@ -164,6 +157,24 @@
     </div>
 </footer>
 
+<div class="modal fade " id="bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+            </div>
+            <div class="modal-body">
+                <h3>李永福</h3>
+                <p></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 <script src="../js/jquery.js"></script>
 <script src="../js/bootstrap.min.js"></script>

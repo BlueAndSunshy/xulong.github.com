@@ -99,6 +99,24 @@ setTimeout(function () {
 },3000);
 
 
+$(function(){
+    $(".panel-heading").click(function(e){
+        /*切换折叠指示图标*/
+        $(this).find("span").toggleClass("glyphicon-chevron-down");
+        $(this).find("span").toggleClass("glyphicon-chevron-up");
+    });
+});
+// $('#myModal').modal('show')
+// $('#exampleModal').on('show.bs.modal', function (event) {
+//     var button = $(event.relatedTarget) // Button that triggered the modal
+//     var recipient = button.data('whatever') // Extract info from data-* attributes
+//     // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+//     // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+//     var modal = $(this)
+//     modal.find('.modal-title').text('New message to ' + recipient)
+//     modal.find('.modal-body input').val(recipient)
+// })
+
 
   // HOME BACKGROUND SLIDESHOW
   // $(function(){

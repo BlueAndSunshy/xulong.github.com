@@ -4255,6 +4255,14 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   left: 0;
   z-index: 1030;
 }
+.navbar-fixed-top1,
+.navbar-fixed-bottom1 {
+  position: absolute;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
 @media (min-width: 768px) {
   .navbar-fixed-top,
   .navbar-fixed-bottom {
