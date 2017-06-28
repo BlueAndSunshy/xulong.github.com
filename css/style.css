@@ -352,15 +352,6 @@ home section
 #home p{
     text-align: center;
 }
-#home .h0{
-    font-size:68px;
-}
-#home h1 {
-  font-size: 40px;
-}
-#home h3 {
-  font-size: 14px;
-}
 #home hr {
     width: 240px;
     color:#000000;
