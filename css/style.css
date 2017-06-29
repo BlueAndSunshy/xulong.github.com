@@ -973,11 +973,14 @@ member section
 /* ==========================================================================
 research section
 ========================================================================== */
-#research .pic1{
-    width: 70%;
+#research img{
+    width: 100%;
 }
 #research th{
     text-align: center;
+}
+#research table tbody{
+    width: 100%;
 }
 #research .row .section-title{
     width: 100%;
@@ -993,19 +996,36 @@ research section
     margin-bottom: 0px;
     margin-top:0px;
 }
-#research ol {
-    text-align: left;
-}
-#research .first-ul{
-    width: 30%;
-    height: auto;
-    margin: 0px;
-    padding-top: 75px;
-    float: right;
-    font-size: 20px;
-}
 #research ul{
     list-style-type: disc;
+}
+#research ol li{
+    font-size: 16px;
+}
+#research ul li{
+    font-size: 17px;
+
+}
+@media (max-width: 440px){
+    #research h1 {
+        font-size: 22px;
+    }
+    #research h2{
+        font-size:17px;
+    }
+    #research h3 {
+        font-size: 12px;
+
+    }
+    #research ul li{
+        font-size: 12px;
+    }
+    #research ol li{
+        font-size: 14px;
+    }
+    #research p{
+        font-size: 12px;
+    }
 }
 /* ==========================================================================
 lab section
