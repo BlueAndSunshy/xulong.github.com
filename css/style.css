@@ -715,6 +715,31 @@ team section
 #team {
     text-align: center;
 }
+#team .year{
+    margin-top:55px;
+}
+#team .year strong{
+    color:#424242;
+    font-size:24px;
+    margin-bottom:35px;
+    display:block;
+}
+#team .year .month{
+    padding-left: 25px;
+    color:#000000;
+    position: relative;
+    padding-bottom: 40px;
+    border-left: 1px solid #e0e0e0;
+    margin-left: 62px;
+}
+#team  .year .month em{
+    font-style: normal;
+    width:62px;
+    position: absolute;
+    left:-43px;
+    top:-5px;
+}
+
 #team h3 {
     font-weight: bold;
 }
