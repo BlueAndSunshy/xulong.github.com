@@ -44,7 +44,9 @@ hr {
 .section-title {
   padding-bottom: 32px;
 }
-
+.heading{
+    text-align: center;
+}
 .medium-icon {
   font-size: 32px !important;
 }
@@ -399,7 +401,9 @@ home2 section
 p{
     text-align: left;
 }
-
+#home2 li{
+    text-align: left;
+}
 #home2 .clear{
     clear: both;
 }
@@ -984,6 +988,8 @@ research section
 }
 #research th{
     text-align: center;
+    padding-left: 5px;
+    padding-right:5px;
 }
 #research table tbody{
     width: 100%;
@@ -1006,7 +1012,7 @@ research section
     list-style-type: disc;
 }
 #research ol li{
-    font-size: 16px;
+    font-size: 15px;
 }
 #research ul li{
     font-size: 17px;
@@ -1027,7 +1033,7 @@ research section
         font-size: 12px;
     }
     #research ol li{
-        font-size: 14px;
+        font-size: 12px;
     }
     #research p{
         font-size: 12px;
