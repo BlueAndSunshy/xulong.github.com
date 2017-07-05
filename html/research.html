@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>实验室</title>
+    <title>车联网与智能交通研究所</title>
     <meta http-equiv="X-UA-Compatible" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="">
@@ -20,7 +20,7 @@
 <body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
 
 <!-- navigation section -->
-<section class="navbar navbar-fixed-top custom-navbar1" role="navigation">
+<nav class="navbar navbar-fixed-top1 custom-navbar1" role="navigation">
 	<div class="container">
 		<div class="navbar-header">
 			<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -29,20 +29,39 @@
 				<span class="icon icon-bar"></span>
 			</button>
 			<!--<a href="#" class="navbar-brand">重庆邮电大学车联网展示平台</a>-->
-			<h4 style="color: #00C6D7;">重庆邮电大学</h4>
+			<h4 style="color: #00C6D7;">车联网与智能交通研究所</h4>
 		</div>
-		<div class="collapse navbar-collapse">
+		<div class="collapse navbar-collapse" id="Logo">
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="../index.html" class="smoothScroll">主页</a></li>
 				<li><a href="../html/team.html" class="smoothScroll">团队简介</a></li>
+				<li><a href="../html/news.html" class="smoothScroll">团队新闻</a></li>
 				<li><a href="../html/member.html" class="smoothScroll">团队成员</a></li>
-				<li><a href="#research" class="smoothScroll">研究动态</a></li>
+				<li role="presentation" class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#research" role="button" aria-haspopup="true" aria-expanded="false">
+						研究动态<span class="caret"></span>
+					</a>
+					<ul class="dropdown-menu">
+						<li>
+							<a href="#res" class="smoothScroll">研究方向</a>
+						</li>
+						<li>
+							<a href="#proj" class="smoothScroll">科研项目</a>
+						</li>
+						<li>
+							<a href="#paper" class="smoothScroll">学术论文</a>
+						</li>
+						<li>
+							<a href="#patent" class="smoothScroll">发明专利</a>
+						</li>
+					</ul>
+				</li>
 				<li><a href="../html/lab_gallery.html" class="smoothScroll">照片展示</a></li>
 				<li><a href="../html/contact.html" class="smoothScroll">联系方式</a></li>
 			</ul>
 		</div>
 	</div>
-</section>
+</nav>
 <!-- navigation section -->
 <!-- **********************************************************************************************************************-->
 <!-- **********************************************************************************************************************-->
@@ -52,10 +71,10 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 col-sm-12">
-				<div class="section-title" style="width: 90%">
+				<div class="section-title" >
 					<h1 class="heading bold">研究动态</h1>
 					<hr>
-					<h2>主要研究方向</h2>
+					<h2 id="res">研究方向</h2>
 					<h3>1.车联网环境下复杂交通系统建模</h3>
 					<ul>
 						<li>考虑车辆状态信息</li>
@@ -102,7 +121,7 @@
 							<td><img src="../images/R10.jpg"></td>
 						</tr>
 					</table>
-					<h2>科研项目</h2>
+					<h2 id="proj">科研项目</h2>
 					<ol>
 						<li>国家自然科学基金(Grant No. 61304197)：T-CPS环境下基于多Agent免疫协同进化理论的微观交通认知
 							方法研究. 2014.01- 2016.12. </li>
@@ -130,136 +149,26 @@
 							2012.01-2015.06.</li>
 					</ol>
 					<hr>
-					<h2>研究成果</h2>
-					<h3>1、学术论文</h3>
-					<table border="1" style="text-align: center;width: 100%">
-						<thead>
-						<tr>
-							<th style="width: 40px">序号</th>
-							<th>论文题目</th>
-							<th>刊物名称</th>
-							<th>刊物级别</th>
-							<th>时间</th>
-							<th>作者</th>
-						</tr>
-						</thead>
-						<tbody>
-						<tr>
-							<th>1</th>
-							<th>A new lattice hydrodynamic model considering the effects of bilateral gaps on vehicular traffic flow</th>
-							<th>Nonlinear Dynamics(ISSN:0924-090X)</th>
-							<th>SCI, IF=3.000,JCR一区</th>
-							<th>2016.07</th>
-							<th>李永福，宋宇，郑太雄，李银国</th>
-						</tr>
-						<tr>
-							<th>2</th>
-							<th>A car-following model considering the effect of electronic throttle opening angle under connected environment</th>
-							<th>Nonlinear Dynamics(ISSN:0924-090X)</th>
-							<th>SCI, IF=3.000,JCR一区</th>
-							<th>2016.05</th>
-							<th>李永福，张力等</th>
-						</tr>
-						<tr>
-							<th>3</th>
-							<th>Non-lane-discipline-based car-following model considering the effect of visual angle</th>
-							<th>Nonlinear Dynamics(ISSN:0924-090X)</th>
-							<th>SCI, IF=3.000,JCR一区</th>
-							<th>2016.08</th>
-							<th>李永福，张力等</th>
-						</tr>
-						<tr>
-							<th>4</th>
-							<th>Multiple measures based chaotic time series for traffic flow prediction based on Bayesian theory</th>
-							<th>Nonlinear Dynamics(ISSN:0924-090X)</th>
-							<th>SCI, IF=3.000,JCR一区</th>
-							<th>2016.07</th>
-							<th>李永福，蒋肖等</th>
-						</tr>
-						<tr>
-							<th>5</th>
-							<th>A sliding mode controller for vehicular traffic flow</th>
-							<th>Physica A(ISSN:0378-4371)</th>
-							<th>SCI, IF=1.785,JCR二区</th>
-							<th>2016.01</th>
-							<th>李永福，李科志等</th>
-						</tr>
-						<tr>
-							<th>6</th>
-							<th>Evaluating the performance of vehicular platoon control under different network topologies of initial states</th>
-							<th>Physica A(ISSN:0378-4371)</th>
-							<th>SCI, IF=1.785,JCR二区</th>
-							<th>2016.01</th>
-							<th>李永福，李科志等</th>
-						</tr>
-						<tr>
-							<th>7</th>
-							<th>Extended state observer based double loop integral sliding mode control of electronic throttle valve</th>
-							<th>IEEE Transactions on Intelligent Transportation Systems(ISSN:1524-9050)</th>
-							<th>SCI, IF=2.534,JCR一区</th>
-							<th>2015.10</th>
-							<th>李永福，杨斌，郑太雄等</th>
-						</tr>
-						<tr>
-							<th>8</th>
-							<th>Evaluating the energy consumption of electric vehicles based on car-following model under non-lane discipline</th>
-							<th>Nonlinear Dynamics(ISSN:0924-090X)
-							</th>
-							<th>SCI, IF=3.000,JCR一区</th>
-							<th>2015.05</th>
-							<th>李永福，张力，郑太雄等</th>
-						</tr>
-						<tr>
-							<th>9</th>
-							<th>Lattice hydrodynamic model based delay feedback control of vehicular traffic flow considering the effects of density change rate difference</th>
-							<th>Communications in Nonlinear Science and Numerical Simulation(ISSN:1007-5704)</th>
-							<th>SCI, IF=2.834,JCR一区</th>
-							<th>2015.05</th>
-							<th>李永福，张力，郑太雄，李银国</th>
-						</tr>
-						<tr>
-							<th>10</th>
-							<th>Non-lane-discipline-based car-following model considering the effects of two-sided  lateral gaps</th>
-							<th>Nonlinear Dynamics(ISSN:0924-090X)</th>
-							<th>SCI, IF=3.000,JCR一区</th>
-							<th>2015.04</th>
-							<th>李永福，张力，Srinivas Peeta等</th>
-						</tr>
-						<tr>
-							<th>11</th>
-							<th>Transportation-cyber-physical-systems-oriented engine cylinder pressure estimation using high gain observer</th>
-							<th>Chinese Physics B(ISSN:1674-1056)</th>
-							<th>SCI, IF=1.436,JCR三区</th>
-							<th>2015.04</th>
-							<th>李永福，寇晓培，郑太雄等</th>
-						</tr>
-						<tr>
-							<th>12</th>
-							<th>Extended state observer based adaptive back-stepping sliding mode control of electronic throttle in transportation cyber-physical systems</th>
-							<th>Mathematical Problems in Engineering(ISSN: 1024-123X)</th>
-							<th>SCI, IF=0.644,JCR四区</th>
-							<th>2015.03</th>
-							<th>李永福，杨斌，郑太雄等</th>
-						</tr>
-						<tr>
-							<th>13</th>
-							<th>On the stability analysis of microscopic traffic car-following model: a case study</th>
-							<th>Nonlinear Dynamics(ISSN:0924-090X)</th>
-							<th>SCI, IF=3.009,JCR 一区</th>
-							<th>2013.10</th>
-							<th>李永福，岑明，李银国等</th>
-						</tr>
-						<tr>
-							<th>14</th>
-							<th>Modeling and simulation of microscopic traffic flow based on multiple headway, velocity and acceleration difference</th>
-							<th>Nonlinear Dynamics(ISSN:0924-090X)</th>
-							<th>SCI, IF=1.742JCR 二区</th>
-							<th>2011.05</th>
-							<th>李永福，孙棣华等</th>
-						</tr>
-						</tbody>
-					</table>
-					<h3>2、发明专利</h3>
+					<h2 id="paper">学术论文</h2>
+					<h3>1.1、期刊论文</h3>
+					<ul>
+						<li>Li, Y., Song, Y., Yang, B., Zheng, T., Feng, H., & Li, Y. (2016). <a href="../pdf/A%20new%20lattice%20hydrodynamic%20model%20considering%20the%20effects%20of%20bilateral%20gaps%20on%20vehicular%20traffic%20flow.pdf">A new lattice hydrodynamic model considering the effects of bilateral gaps on vehicular traffic flow</a>. Nonlinear Dynamics, 1(87), 1-11.--<a href="../pdf/A%20new%20lattice%20hydrodynamic%20model%20considering%20the%20effects%20of%20bilateral%20gaps%20on%20vehicular%20traffic%20flow.pdf">pdf</a></li>
+						<li>Li, Y., Zhang, L., Peeta, S., He, X., Zheng, T., & Li, Y. (2016). <a href="../pdf/A%20car-following%20model%20considering%20the%20effect%20of%20electronic%20throttle%20opening%20angle%20under%20connected%20environment.pdf">A car-following model considering the effect of electronic throttle opening angle under connected environment</a>. Nonlinear Dynamics, 4(85), 2115-2125.--<a href="../pdf/A%20car-following%20model%20considering%20the%20effect%20of%20electronic%20throttle%20opening%20angle%20under%20connected%20environment.pdf">pdf</a></li>
+						<li>Li, Y., Zhang, L., Zhang, B., Zheng, T., Feng, H., & Li, Y. (2016). <a href="../pdf/Non-lane-discipline-based%20car-following%20model%20considering%20the%20effect%20of%20visual%20angle.pdf">Non-lane-discipline-based car-following model considering the effect of visual angle</a>. Nonlinear Dynamics, 3(85), 1901-1912.--<a href="../pdf/Non-lane-discipline-based%20car-following%20model%20considering%20the%20effect%20of%20visual%20angle.pdf">pdf</a></li>
+						<li>Li, Y., Jiang, X., Zhu, H., He, X., Peeta, S., Zheng, T., & Li, Y. (2016). <a href="../pdf/Multiple%20measures-based%20chaotic%20time%20series%20for%20traffic%20flow%20prediction%20based%20on%20Bayesian%20theory.pdf">Multiple measures-based chaotic time series for traffic flow prediction based on Bayesian theory</a>. Nonlinear Dyn, 85(1), 179-194.--<a href="../pdf/Multiple%20measures-based%20chaotic%20time%20series%20for%20traffic%20flow%20prediction%20based%20on%20Bayesian%20theory.pdf">pdf</a></li>
+						<li>Li, Y., Kang, Y., Yang, B., Peeta, S., Zhang, L., Zheng, T., & Li, Y. (2016). <a href="../pdf/A%20sliding%20mode%20controller%20for%20vehicular%20traffic%20flow.pdf">A sliding mode controller for vehicular traffic flow</a>. Physica A: Statistical Mechanics and its Applications, 462, 38-47.--<a href="../pdf/A%20sliding%20mode%20controller%20for%20vehicular%20traffic%20flow.pdf">pdf</a></li>
+						<li>Li, Y., Li, K., Zheng, T., Hu, X., Feng, H., & Li, Y. (2016). <a href="../pdf/Evaluating%20the%20performance%20of%20vehicular%20platoon%20control%20under%20different%20network%20topologies%20of%20initial%20states.pdf">Evaluating the performance of vehicular platoon control under different network topologies of initial states</a>. Physica A: Statistical Mechanicsand its Applications, 450, 359-368.--<a href="../pdf/Evaluating%20the%20performance%20of%20vehicular%20platoon%20control%20under%20different%20network%20topologies%20of%20initial%20states.pdf">pdf</a></li>
+						<li>Li, Y., Yang, B., Zheng, T., Li, Y., Cui, M., & Peeta, S. (2015). <a href="../pdf/Extended-state-observer-based%20double-loop%20integral%20sliding-mode%20control%20of%20electronic%20throttle%20valve.pdf">Extended-state-observer-based double-loop integral sliding-mode control of electronic throttle valve</a>.IEEE Transactions on IntelligentTransportation Systems, 16(5), 2501-2510.--<a href="../pdf/Extended-state-observer-based%20double-loop%20integral%20sliding-mode%20control%20of%20electronic%20throttle%20valve.pdf">pdf</a></li>
+						<li>Li, Y., Zhang, L., Zheng, H., He, X., Peeta, S., Zheng, T., & Li, Y. (2015). <a href="../pdf/Evaluating%20the%20energy%20consumption%20of%20electric%20vehicles%20based%20on%20car-following%20model%20under%20non-lane%20discipline.pdf">Evaluating the energyconsumption of electric vehicles based on car-following model under non-lane discipline</a>.Nonlinear Dyn, 82(1), 1-13.--<a href="../pdf/Evaluating%20the%20energy%20consumption%20of%20electric%20vehicles%20based%20on%20car-following%20model%20under%20non-lane%20discipline.pdf">pdf</a></li>
+						<li>Li, Y., Zhang, L., Zheng, T., & Li, Y. (2015). <a href="../pdf/Lattice%20hydrodynamic%20model%20based%20delay%20feedback%20control%20of%20vehicular%20traffic%20flow%20considering%20the%20effects%20of%20density%20change%20rate%20difference.pdf">Lattice hydrodynamic model based delay feedback control of vehicular traffic flow considering the effects of density change rate difference</a>. Communications in Nonlinear Science and Numerical Simulation, 29(1), 224-232.--<a href="../pdf/Lattice%20hydrodynamic%20model%20based%20delay%20feedback%20control%20of%20vehicular%20traffic%20flow%20considering%20the%20effects%20of%20density%20change%20rate%20difference.pdf">pdf</a></li>
+						<li>Li, Y., Zhang, L., Peeta, S., Pan, H., Zheng, T., Li, Y., & He, X. (2015). <a href="../pdf/Non-lane-discipline-based%20car-following%20model%20considering%20the%20effects%20of%20two-sided%20lateral%20gaps.pdf">Non-lane-discipline-based car-following model considering the effects of two-sided lateral gaps</a>. Nonlinear Dynamics, 80(1-2), 227-238.--<a href="../pdf/Non-lane-discipline-based%20car-following%20model%20considering%20the%20effects%20of%20two-sided%20lateral%20gaps.pdf">pdf</a></li>
+						<li>Yong-Fu, L., Kou, X. P., Tai-Xiong, Z., & Yin-Guo, L. (2015). <a href="../pdf/Transportation-cyber-physical-systems-oriented%20engine%20cylinder%20pressure%20estimation%20using%20high%20gain%20observer.pdf">Transportation-cyber-physical-systems-oriented engine cylinder pressure estimation using high gain observer</a>. Chinese Physics B, 24(5), 058901.--<a href="../pdf/Transportation-cyber-physical-systems-oriented%20engine%20cylinder%20pressure%20estimation%20using%20high%20gain%20observer.pdf">pdf</a> </li>
+						<li>Li, Y., Yang, B., Zheng, T., & Li, Y. (2015). <a href="../pdf/Extended%20state%20observer%20based%20adaptive%20back-stepping%20sliding%20mode%20control%20of%20electronic%20throttle%20in%20transportation%20cyber-physical%20systems.pdf">Extended state observer based adaptive back-stepping sliding mode control of electronic throttle in transportation cyber-physical systems</a>. Mathematical Problems in Engineering, 2015.--<a href="../pdf/Extended%20state%20observer%20based%20adaptive%20back-stepping%20sliding%20mode%20control%20of%20electronic%20throttle%20in%20transportation%20cyber-physical%20systems.pdf">pdf</a></li>
+						<li>Li, Y., Zhu, H., Cen, M., Li, Y., Li, R., & Sun, D. (2013). <a href="../pdf/On%20the%20stability%20analysis%20of%20microscopic%20traffic%20car-following%20model.pdf">On the stability analysis of microscopic traffic car-following model: a case study</a>. Nonlinear Dynamics, 74(1-2), 335-343.--<a href="../pdf/On%20the%20stability%20analysis%20of%20microscopic%20traffic%20car-following%20model.pdf">pdf</a></li>
+						<!--<li>Li, Y., Sun, D., Liu, W., Zhang, M., Zhao, M., Liao, X., & Tang, L. (2011). <a href="../pdf/14.pdf">Modeling and simulation for microscopic traffic flow based on multiple headway, velocity and acceleration difference</a>. Nonlinear Dynamics, 66(1), 15-28.&#45;&#45;<a href="../pdf/14.pdf">pdf</a></li>-->
+					</ul>
+					<h3>1.2、会议论文</h3>
+					<h2 id="patent">发明专利</h2>
 					<table border="1" style="text-align: center; width:100%;height: 300px;">
 						<thead>
 						<tr>
@@ -368,13 +277,12 @@
 					<p>Copyright © ChongQing University of Post and Telecommunications/X.L.</p>
 				</div>
 				<div class="col-md-3 col-sm-12 ">
-					<ul>
-						友情链接
-						<hr>
-						<li><a>重庆邮电大学研究生院</a></li>
-						<li><a>重庆邮电大学</a></li>
-						<li><a>重庆邮电大学图书馆</a></li>
-					</ul>
+					<table frame="above">
+						<caption style="text-align: center;color: #fff">友情链接</caption>
+						<tr><td style="text-align: left"><a>重庆邮电大学</a></td></tr>
+						<tr><td style="text-align: left"><a>重庆邮电大学研究生院</a></td></tr>
+						<tr><td style="text-align: left"><a>重庆邮电大学图书馆</a></td></tr>
+					</table>
 				</div>
 			</div>
 		</div>
