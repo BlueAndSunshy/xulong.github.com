@@ -1,4 +1,4 @@
-/*!
+/*/
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
@@ -187,7 +187,7 @@ td,
 th {
   padding: 0;
 }
-/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
+/*/ Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 @media print {
   *,
   *:before,
@@ -5114,22 +5114,22 @@ a.thumbnail.active {
     background-position: 0 0;
   }
 }
-@-o-keyframes progress-bar-stripes {
-  from {
-    background-position: 40px 0;
-  }
-  to {
-    background-position: 0 0;
-  }
-}
-@keyframes progress-bar-stripes {
-  from {
-    background-position: 40px 0;
-  }
-  to {
-    background-position: 0 0;
-  }
-}
+/*@-o-keyframes progress-bar-stripes {*/
+  /*from {*/
+    /*background-position: 40px 0;*/
+  /*}*/
+  /*to {*/
+    /*background-position: 0 0;*/
+  /*}*/
+/*}*/
+/*@keyframes progress-bar-stripes {*/
+  /*from {*/
+    /*background-position: 40px 0;*/
+  /*}*/
+  /*to {*/
+    /*background-position: 0 0;*/
+  /*}*/
+/*}*/
 .progress {
   height: 20px;
   margin-bottom: 20px;
@@ -6551,9 +6551,9 @@ button.close {
 .affix {
   position: fixed;
 }
-@-ms-viewport {
-  width: device-width;
-}
+/*@-ms-viewport {*/
+  /*width: device-width;*/
+/*}*/
 .visible-xs,
 .visible-sm,
 .visible-md,
