@@ -387,7 +387,7 @@ home3 section
 #home3 .news-left ul li a:hover {color: #00c6d7;}
 #home3 .news-title h2 a{text-align: left;font-size:24px;}
 
-#home3 .container .mySlideshow li  img{width: 100%;height: 100%  }
+#home3 .container .mySlideshow li  img{width: 100%; height:300px}
 
 #home3 .section-title h2,
 #home3 .section-title h1{  color: #ffffff;  }
@@ -475,7 +475,8 @@ member section
 #member .container {  background-color: #ffffff;  }
 #member hr { width: 100%;}
 #member h2{ text-align: center}
-#member table {  width: 100%;  border: none;  }
+#member h4{display:inline-block;float: left;margin:0; padding-bottom: 3px;padding-top: 3px;}
+#member table {  width: 90%;  border: none;margin-bottom:20px; }
 #member table tr td {  width: 25%;  text-align: center;  font-size: 18px;  }
 #member table tr td a {  color: #0000ff;  }
 #member table tr td a:hover {  color: #0000ff;  }
